@@ -1,16 +1,51 @@
-# Continuity
+# Continuity (Embeddium Edition)
 
-Continuity is a Minecraft mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.
+A specialized fork/configuration guide for **Continuity**, optimized to work seamlessly with **Embeddium**. 
 
-Continuity is client-side only and includes two built-in resource packs. The Default Connected Textures pack provides connected textures for glass, sandstone, and bookshelves, similar to the built-in connected textures provided by OptiFine. The Glass Pane Culling Fix pack culls faces between vertically stacked glass panes to make them look seamless with connected textures.
+[Continuity](https://modrinth.com/mod/continuity) is a client-side Minecraft mod that brings **OptiFine-format connected textures, emissive textures, and custom block layers** to modded setups without requiring OptiFine itself. By combining it with [Embeddium](https://modrinth.com/project/sk9rgfiA), you get high-performance rendering paired with beautiful, seamless textures.
 
-Formally, Continuity implements the Continuity connected textures specification, Continuity emissive textures specification, and Continuity custom block layers specification. All of these are extensions of the corresponding OptiFine specification and were created to provide more features to resource pack authors. The documentation for the Continuity specifications can be found at the [Continuity wiki](https://github.com/PepperCode1/Continuity/wiki).
+---
 
-Continuity is developed as a Fabric mod and is recommended to be used with Fabric. However, [Connector](https://github.com/Sinytra/Connector) and [Forgified Fabric API](https://github.com/Sinytra/ForgifiedFabricAPI) allow Continuity to work well on other mod loaders such as NeoForge and Forge. Releases are made on CurseForge and Modrinth that are marked as working with these mod loaders; these releases contain the same code as equivalent releases for Fabric, but with additional metadata to declare Connector and Forgified Fabric API as dependencies. An official NeoForge version of Continuity that does not require Forgified Fabric API is not planned at this time due to major technical differences between the Fabric and NeoForge APIs.
+## 🚀 Compatibility & Setup
 
-### Links
+Embeddium features built-in **Fabric Rendering API (FRAPI)** support. This means it handles complex rendering pipelines natively and does not require additional layout bridge mods (like Indium) to work with Continuity.
 
-[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/continuity) \
-[Modrinth Page](https://modrinth.com/mod/continuity) \
-[Wiki](https://github.com/PepperCode1/Continuity/wiki) \
-[Discord](https://discord.gg/7rnTYXu)
+### 🧵 Fabric Setup
+1. Download the official [Continuity](https://modrinth.com/mod/continuity) mod.
+2. Download [Embeddium](https://modrinth.com/project/sk9rgfiA).
+3. Drop both into your `mods` folder. They work together automatically!
+
+### 🛠️ Forge / NeoForge Setup (With Connector)
+If you are running a mixed modpack on Forge or NeoForge:
+1. Install [Sinytra Connector](https://github.com/Sinytra/Connector) and [Forgified Fabric API](https://github.com/Sinytra/ForgifiedFabricAPI).
+2. Add official Fabric **Continuity** and Forge/NeoForge **Embeddium** to your folder.
+
+### ⚡ Native NeoForge Setup (No Translation Layers)
+If you want a pure NeoForge ecosystem without Sinytra Connector, use the community-maintained native fork:
+* Install **[NeoContinuity](https://www.curseforge.com/minecraft/mc-mods/neocontinuity)** alongside Embeddium.
+
+---
+
+## 🎨 Features & Built-in Packs
+
+Continuity includes two default resource packs that must be activated in your in-game Resource Packs menu:
+
+* **Default Connected Textures:** Provides connected textures for glass, sandstone, and bookshelves (matching OptiFine's default look).
+* **Glass Pane Culling Fix:** Culls interior faces between vertically stacked glass panes to make them look completely seamless.
+
+---
+
+## ⚙️ Recommended UI Fix
+
+Embeddium completely replaces the default Minecraft video options menu, which can sometimes hide Continuity's built-in toggle settings. 
+
+To fix this, it is highly recommended to install:
+* **[Sodium/Embeddium Options Mod Compat](https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-options-mod-compat):** This cleanly injects Continuity’s options layout directly into the Embeddium settings menu.
+
+---
+
+## 🌐 Original Project Links
+* **CurseForge:** [Official Continuity Page](https://www.curseforge.com/minecraft/mc-mods/continuity)
+* **Modrinth:** [Official Continuity Page](https://modrinth.com/mod/continuity)
+* **Source/Wiki:** [Continuity GitHub](https://github.com/PepperCode1/Continuity/wiki)
+* **Community:** [Official Discord Server](https://discord.gg/7rnTYXu)
