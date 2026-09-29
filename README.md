@@ -12,17 +12,16 @@ Embeddium features built-in **Fabric Rendering API (FRAPI)** support. This means
 
 ### 🧵 Fabric Setup
 1. Download the official [Continuity](https://modrinth.com/mod/continuity) mod.
-2. Download [Embeddium](https://modrinth.com/project/sk9rgfiA).
+2. Download [Sodium](https://modrinth.com/mod/sodium).
 3. Drop both into your `mods` folder. They work together automatically!
 
 ### 🛠️ Forge / NeoForge Setup (Now without connector!)
-If you are running a mixed modpack on Forge or NeoForge:
-2. Add the unofficial fork of the Fabric **Continuity** called **Connected textures Embeddium** and Forge/NeoForge **Embeddium** to your folder.
+If you are running a mixed modpack on Forge or NeoForge [Embeddium](https://github.com/danivivescarrera370-glitch/Connected-textures-Embeddium/tree/1.20.1/dev
+2. Add the unofficial fork of the Fabric [**Continuity** called **Connected textures Embeddium**]([Embeddium](https://github.com/danivivescarrera370-glitch/Connected-textures-Embeddium/tree/1.20.1/dev](https://modrinth.com/mod/embeddium)) and Forge/NeoForge **Embeddium** or **Sodium** to your folder.
 
 ### ⚡ Native NeoForge Setup (No Translation Layers)
 If you want a pure NeoForge ecosystem without Sinytra Connector, use the community-maintained native fork:
-* Install **[NeoContinuity](https://www.curseforge.com/minecraft/mc-mods/neocontinuity)** alongside Embeddium.
-
+You have 
 ---
 
 ## 🎨 Features & Built-in Packs
