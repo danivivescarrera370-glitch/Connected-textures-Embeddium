@@ -17,8 +17,7 @@ Embeddium features built-in **Fabric Rendering API (FRAPI)** support. This means
 
 ### 🛠️ Forge / NeoForge Setup (With Connector)
 If you are running a mixed modpack on Forge or NeoForge:
-1. Install [Sinytra Connector](https://github.com/Sinytra/Connector) and [Forgified Fabric API](https://github.com/Sinytra/ForgifiedFabricAPI).
-2. Add official Fabric **Continuity** and Forge/NeoForge **Embeddium** to your folder.
+2. Add the unofficial fork of the Fabric **Continuity** called **Connected textures Embeddium** and Forge/NeoForge **Embeddium** to your folder.
 
 ### ⚡ Native NeoForge Setup (No Translation Layers)
 If you want a pure NeoForge ecosystem without Sinytra Connector, use the community-maintained native fork:
