@@ -15,7 +15,7 @@ Embeddium features built-in **Fabric Rendering API (FRAPI)** support. This means
 2. Download [Embeddium](https://modrinth.com/project/sk9rgfiA).
 3. Drop both into your `mods` folder. They work together automatically!
 
-### 🛠️ Forge / NeoForge Setup (With Connector)
+### 🛠️ Forge / NeoForge Setup (Now without connector!)
 If you are running a mixed modpack on Forge or NeoForge:
 2. Add the unofficial fork of the Fabric **Continuity** called **Connected textures Embeddium** and Forge/NeoForge **Embeddium** to your folder.
 
